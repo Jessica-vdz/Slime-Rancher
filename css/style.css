@@ -3,15 +3,53 @@
     padding:0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.navbar{
-    background-color: #E5989B;
-}
-.main{
-    background-color: #AFC2D5;
-}
-/* 
-    background color: AFC2D5
-    text color :  FFE6A7
-    navbar color : E5989B
 
-*/
+.navbar{
+    background-color: #1adacc;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgb(32, 31, 31);
+    padding:20px;
+    position: sticky;
+    top:0;
+    cursor: default;
+}
+
+.main{
+    background-color: #547198;
+    text-align: center;
+    cursor: default;
+    
+}
+
+.credits{
+    text-align: center;
+    background-color: #40557096;
+    color: #f2f2f2;
+    text-shadow: 1px 1px 5px #425876;
+    cursor:default;
+}
+#bgbox{
+    width: 100vw;
+}
+.infobox{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    padding:10px;
+    color:#f2f2f2;
+    text-shadow: 1px 1px 5px #425876;
+
+}
+.bx{
+    width:250px;
+    padding: 5px;
+    background-color: #6488b7;
+    border-radius: 5%;
+    box-shadow: 1px 1px 5px #4d688b;
+}
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
