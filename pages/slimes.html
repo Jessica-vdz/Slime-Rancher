@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Slime Rancher</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="../index.html">Home</a>
+            <a href="/pages/slimes.html">Slimes</a>
+            <a href="#">Map</a>
+          </div>
+          <div class="main2">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+            <h2 id="title2">Slimes</h2>
+          </div>
+    </nav>
+    <main>
+        <section class="main">
+
+        </section>
+        <footer class="credits">
+            <article class="credits1">
+                Jessica van der Zwaag - SD1D 
+            </article>
+        </footer>
+    </main>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+           
+</body>
+</html>

@@ -8,22 +8,27 @@
     <title>Slime Rancher</title>
 </head>
 <body>
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">Home</a>
-        <a href="#">Slimes</a>
-        <a href="#">Map</a>
-      </div>
-      <nav id="main">
-        <button class="openbtn" onclick="openNav()">☰ Menu</button>  
-        <h2 id="title2">Slime Ranchers</h2>
-      </nav>
+    <nav class="navbar">
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <h1 id="title2">Slime Ranchers</h1>
+            <a href="./index.html">Home</a>
+            <a href="/pages/slimes.html">Slimes</a>
+            <a href="#">Map</a>
+          </div>
+          <div class="main2">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+        </div>         
+    </nav>
     <main>
         <section class="main">
                     <figure>
                         <img src="./Pics/Background.png" alt="Background" id="bgbox">
                     </figure>
-                <section class="infobox">
+                <section id="infobox">
+                    <h2 class="text">Slime Ranchers</h2>
+                    </section>
+                <section class="infobox1">
                 <article class="bx">
                     <h2 class="title"> What is Slime Ranchers?</h2>
                     <p> Slime Ranchers is a fun game that i've been playing for quite a while now.
@@ -43,6 +48,7 @@
                         The game was initially due to enter early access after a year, but was delayed by six months.</p>
                 </article>
                 </section>
+                </section>
         </section>
         <footer class="credits">
             <article class="credits1">
@@ -53,11 +59,14 @@
     <script>
         function openNav() {
           document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
         }
         
         function closeNav() {
           document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
         }
-    </script>
+        </script>
+           
 </body>
 </html>
