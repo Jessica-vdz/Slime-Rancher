@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background-color: #1adacc;
+    background-color: #1f2f16;
     height: 25px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 5px rgb(32, 31, 31);
@@ -16,7 +16,7 @@
 }
 
 .main{
-    background-color: #547198;
+    background-color: #647d73;
     text-align: center;
     cursor: default;
     
@@ -24,7 +24,7 @@
 
 .credits{
     text-align: center;
-    background-color: #40557096;
+    background-color: #576d64;
     color: #f2f2f2;
     text-shadow: 1px 1px 5px #425876;
     cursor:default;
@@ -63,9 +63,9 @@
 .bx{
     width:350px;
     padding: 15px;
-    background-color: #6488b7;
+    background-color: #576d64;
     border-radius: 5%;
-    box-shadow: 1px 1px 5px #4d688b;
+    box-shadow: 1px 1px 5px #576d64;
     margin-bottom:150px;
 }
 .title{
@@ -120,7 +120,7 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #1adacc;
+  background-color: #1f2f16;
   border-radius: 20%;
   color: white;
   padding: 10px 15px;
@@ -128,7 +128,7 @@
 }
 
 .openbtn:hover {
-  background-color: #1eeee0;
+  background-color: #182311;
   transition: 0.5s ease-in;
 }
 
